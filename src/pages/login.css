@@ -1,0 +1,40 @@
+.loginpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login .im{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.im img{
+    height: 100%;
+}
+.login{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.login p{
+    padding: 10px;    
+    font-size: 20px;
+}
+.google-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.google-button button{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+.google-button button:hover{
+    text-decoration: underline;
+    background-color: whitesmoke;
+}

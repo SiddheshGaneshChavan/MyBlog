@@ -1,0 +1,58 @@
+.side{
+    margin: 0px 50px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.post{
+    width: 600px;
+    padding: 20px;
+    margin: 7px;
+    border: 2px solid grey;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.postHeader label{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px ;
+}
+.postHeader svg{
+    width: 40px;
+    padding: 10px;
+}
+.postTextContainer{
+    border: 2px solid black;
+    padding: 10px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.postTextContainer h3{
+    font-size: 25px;
+}
+footer {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  

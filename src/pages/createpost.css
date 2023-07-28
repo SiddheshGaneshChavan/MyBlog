@@ -1,0 +1,67 @@
+.createpost{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    width: 750px;
+    background-color: whitesmoke;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid white;
+}
+.title{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title label{
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 80px;
+}
+.title input{
+    width: 500px;
+    padding: 20px;
+    font-size: 20px;
+}
+.description{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description label{
+    font-size: 20px;
+    padding: 20px;
+}
+.description textarea{
+    width: 500px;
+    padding: 20px;
+    font-size: 20px;
+    height: 200px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.button input{
+    padding: 20px 150px 20px 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.button input:hover{
+    background-color: white;
+    color: black;
+}
